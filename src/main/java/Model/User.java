@@ -41,11 +41,11 @@ public class User implements Serializable {
     private String username, password;
     private int profile;
 
-    public User() {
-        this.username = "client";
-        this.password = "1234";
-        this.profile = 1;
-    }
+//    public User() {
+//        this.username = "client";
+//        this.password = "1234";
+//        this.profile = 1;
+//    }
 
     public User(String username, String password, int profile) {
         this.username = username;
